@@ -21,6 +21,7 @@ export function initPerformanceMonitor({ endpoint, onMetric }) {
     }
   };
 
+  
   onCLS(sendMetric);
   onFID(sendMetric);
   onLCP(sendMetric);
