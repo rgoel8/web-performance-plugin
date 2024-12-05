@@ -1,4 +1,4 @@
-import { getCLS, getFID, getLCP, getTTFB } from "web-vitals";
+import { onCLS, onFID, onLCP, onTTFB } from "web-vitals";
 import Chart from "chart.js/auto";
 import axios from "axios";
 
@@ -21,10 +21,10 @@ export function initPerformanceMonitor({ endpoint, onMetric }) {
     }
   };
 
-  getCLS(sendMetric);
-  getFID(sendMetric);
-  getLCP(sendMetric);
-  getTTFB(sendMetric);
+  onCLS(sendMetric);
+  onFID(sendMetric);
+  onLCP(sendMetric);
+  onTTFB(sendMetric);
 }
 
 /**
