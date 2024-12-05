@@ -1,0 +1,23 @@
+{
+  "name": "web-performance-plugin",
+  "version": "1.0.2",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web-vitals",
+    "performance",
+    "npm-plugin",
+    "google-lighthouse",
+    "graphs"
+  ],
+  "author": "Rishabh Goel",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "chart.js": "^4.4.7",
+    "web-vitals": "^4.2.4"
+  }
+}
